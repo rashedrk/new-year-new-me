@@ -1,0 +1,51 @@
+/* to change font style */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* set background to header */
+header{
+    height: 800px;
+    width: 100%;
+    background-image: url(/images/banner/banner1.png);
+    background-size:cover;
+    text-align: right;
+}
+/* eleminating default margin by browser */
+/*{
+    margin: 0;
+} */
+
+/* css for header title */
+.title{
+    margin-top: 215px;
+    margin-left: 745px;
+    position:absolute;
+    width: 480px;
+}
+.title h2{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.title p{
+    margin-bottom: 20px;
+    color: #444343;
+    font-weight: 400;
+}
+.title a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #F15B22;
+    padding: 15px;
+}
+/* section 1 : My failures of previous year */
+.failures{
+    display: flex;
+    margin: 80px;
+}
+.details {
+    margin-top: 205px;
+    margin-left: 80px;
+    width: 416px;
+} 
