@@ -6,7 +6,7 @@ body{
 /* set background to header */
 header{
     height: 630px;
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(../images/banner/banner1.png);
     background-size:100%;
     background-repeat: no-repeat;
     text-align: right;
@@ -107,7 +107,7 @@ nav a{
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-image: url(/images/watch.png);
+    background-image: url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
