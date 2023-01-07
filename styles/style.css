@@ -1,24 +1,39 @@
-/* to change font style */
+/* to change font style and default margin by browser*/
 body{
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
 }
 /* set background to header */
 header{
-    height: 800px;
-    width: 100%;
+    height: 630px;
     background-image: url(/images/banner/banner1.png);
-    background-size:cover;
+    background-size:100%;
+    background-repeat: no-repeat;
     text-align: right;
+    
 }
-/* eleminating default margin by browser */
-/*{
-    margin: 0;
-} */
 
+/* Navigation */
+nav > ul{
+    display: flex;
+    margin-top: 0;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 0 2px;
+}
+nav li:hover{
+    background-color: rgb(207, 206, 199);
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
 /* css for header title */
 .title{
-    margin-top: 215px;
-    margin-left: 745px;
+    margin-top: 100px;
+    margin-left: 645px;
     position:absolute;
     width: 480px;
 }
@@ -49,3 +64,101 @@ header{
     margin-left: 80px;
     width: 416px;
 } 
+
+.details h1{
+    font-size: 48px;
+}
+.details p,ul{
+    color:#444343;
+}
+.details ul {
+    list-style: none;
+  }
+  
+.details ul li:before {
+    content: '✓ ';
+    color: #16D887;
+    font-weight: bold;
+  }
+
+.photo{
+    width: 50%;
+}
+/* My plans */
+.plans{
+    margin-top: 50px;
+    text-align: center;
+}
+.plans .container{
+    display: flex;
+    justify-content: center;
+}
+.content {
+    display: flex;
+}
+.plan{
+    margin: 40px;
+    text-align: center;
+}
+
+/* call us section */
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.contact img{
+    width: 65%;
+}
+.contact-text{
+    position:absolute;
+    text-align: left;
+    color: white;
+    width: 55%;
+    
+}
+.contact a , .subscribe a {
+/* applying same style to subscribe and call now button/link */
+    text-decoration: none;
+    color: #F15B22;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    font-weight: 600;
+    
+}
+
+/* footer styles */
+footer{
+    margin-top: 100px;
+    color: white;
+    background-color: black; 
+    padding: 100px;
+    display: flex;
+}
+.future{
+    width: 60%;
+}
+.social img{
+    margin-right: 10px;
+}
+.subscribe{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    
+}
+.subscribe input{
+    margin-bottom: 30px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
